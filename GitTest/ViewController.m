@@ -18,10 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
     NSLog(@"HelloWorld");
+    
+    [self sayHello];
 }
 
+-(void)sayHello{
 
+    NSLog(@"Hello");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -10,6 +10,6 @@
 #import "TestClass.h"
 @interface ViewController : UIViewController
 
-
+-(void)sayHello;
 @end
 
