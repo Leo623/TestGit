@@ -22,6 +22,8 @@
     NSLog(@"HelloWorld");
     
     [self sayHello];
+    
+    int i=0;
 }
 
 -(void)sayHello{
